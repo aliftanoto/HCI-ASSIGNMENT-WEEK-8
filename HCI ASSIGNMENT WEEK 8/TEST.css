@@ -1,0 +1,40 @@
+body{
+    background-color: #000000;
+}
+#picture {
+    overflow: hidden;
+    position: relative;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#thumbnail {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    
+}
+
+#full {
+    position: relative;
+    cursor: crosshair;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+    margin-right: 200px;
+    
+}
+.border{
+    border: 2px solid black;
+    text-align: center;
+    width: fit-content;
+    background-color: bisque;
+    width: 50%;
+    height: 50%;
+
+}

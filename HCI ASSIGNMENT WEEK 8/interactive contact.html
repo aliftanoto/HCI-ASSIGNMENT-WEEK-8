@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="style interactive contact.css">
+    <title>Interactive Contact</title>
+</head>
+<body>
+    <h3 class="heading">Submit your gmail</h3>
+    <div class="input_container">
+        <form name="formValidation" id="formValidation" action="valid.html" >
+            <label for="name">Full name:</label><br>
+            <div class="input-row">
+            <input type="text" id="Name" name="name" placeholder="enter your name" required>
+            </div>
+            <label for="name">Gmail:</label><br>
+            <div class="input-row">
+                <input type="text" id="Email" name="email" placeholder="enter your email" required>
+            </div>
+            <label for="name">Phone Number:</label><br>
+            <div class="input-row">
+                <input type="text" id="Number" name="number" placeholder="enter your phone number" required>
+            </div>
+            <div class="text-center">
+                <input type="submit" value="submit">
+            </div>
+        </form>
+    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>         
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>  
+    <script src="contact.js"></script>
+    
+</body>
+</html>
